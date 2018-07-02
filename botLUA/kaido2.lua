@@ -1,12 +1,11 @@
 
--- BY @ikeko 
--- MY FILE : @file_lua
+-- BY @KAIDOsn
 
 local action = function(msg, matches)
 	
 if is_admin(msg) then	
 	if matches[1] == 'bc' then
-		local users = client:smembers('keko')
+		local users = client:smembers('kaido')
 		local text = ''
 		if not users then
 		text = 'لا يوجد اعضاء'
@@ -21,14 +20,14 @@ if is_admin(msg) then
 
 
  if matches[1] == 'stats' then
-		local members = client:smembers('keko')
-		local keko = ''
+		local members = client:smembers('kaido')
+		local kaido = ''
 		if members then
 			for i=1, #members do
-				keko = '*اعضاء البوت* : `'..i..'`\n'
+				kaido = '*اعضاء البوت* : `'..i..'`\n'
 			end
 		end
-		api.sendMessage(msg.chat.id, keko, true)
+		api.sendMessage(msg.chat.id, kaido, true)
 	end
 end
 end
