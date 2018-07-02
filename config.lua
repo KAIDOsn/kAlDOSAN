@@ -1,7 +1,7 @@
 return {
 	bot_api_key = '', -- التوكن
 	
-	admin = 358231262, -- ايديك
+	admin = 606456552, -- ايديك
 	
 	botLUA = {	
 		'kaido2.lua',									
