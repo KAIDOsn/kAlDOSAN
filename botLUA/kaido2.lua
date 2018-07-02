@@ -34,7 +34,7 @@ end
 	local triggers = {
 	'^/(bc) (.*)$',
 	'^/(stats)$',
-}
+} 
 return {
 	action = action,
 	triggers = triggers,
