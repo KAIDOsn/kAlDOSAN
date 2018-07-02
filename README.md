@@ -25,5 +25,5 @@ cd kAlDOSAN && ./launch.sh
 🛑 : لرن اللسيرفر =:-  redis-server 
 
 **************************************
-(https://t.me/teem_kaido)[тεαм кαι∂σ]
-(https://t.me/KAIDOsn)[кαι∂σ]
+[тεαм кαι∂σ](https://t.me/teem_kaido)
+[кαι∂σ](https://t.me/KAIDOsn)
