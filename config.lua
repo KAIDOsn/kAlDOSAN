@@ -1,11 +1,11 @@
 return {
-	bot_api_key = '', -- هنا حط التوكن
+	bot_api_key = '', -- التوكن
 	
-	admin = 358231262, -- هنا ايدي المطور الاساسي
+	admin = 358231262, -- ايديك
 	
 	botLUA = {	
-		'keko2.lua',									
-		'keko.lua',									
+		'kaido2.lua',									
+		'kaido.lua',									
 	},
 	
 	
